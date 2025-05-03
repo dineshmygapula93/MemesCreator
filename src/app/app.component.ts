@@ -8,4 +8,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MemesCreator';
+
+  firstmem:String="";
+  secondmem:String="";
+  thirdmem:String="";
+  fourthmem:String="";
+  fifthmem:String="";
+  value:String="";
+ onUpdatebackground(imgurl:String){
+  document.documentElement.style.setProperty('--bg-image',`url(${imgurl})`);
+ }
 }

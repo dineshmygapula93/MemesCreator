@@ -1,0 +1,75 @@
+:root{
+    --bg-image:none;
+}
+.first{
+    border:3px solid;
+    height: 80vh;
+    width:50vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.second{
+    border:3px solid;
+    height: 80vh;
+    width:40vw;
+    border-radius: 20px;
+    display: flex;
+}
+
+.images{
+    height: 60vh;
+    width: 45vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 5px;
+    padding: 5px; 
+}
+img{
+    height: 28vh;
+    width: 12vw;
+    border-radius: 10px;
+    box-shadow: 2px 3px rgb(206, 201, 201);
+}
+
+.url{
+    height: 20vh;
+    width: 48vw;
+    padding: 10px;
+}
+
+input[type=text] {
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
+
+  .memimg{
+    height: 60vh;
+    width: 60vw;
+    background-image: var(--bg-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;  
+    align-items: end;
+    border-radius: 15px;
+  }
+  .memes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60vh;
+  }
+  button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color:white
+  }
+  
