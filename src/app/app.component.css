@@ -65,6 +65,9 @@ input[type=text] {
     justify-content: space-evenly;
     height: 60vh;
   }
+  h3{
+    color:yellow;
+  }
   button{
     width: 100px;
     height: 40px;

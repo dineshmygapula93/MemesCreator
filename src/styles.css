@@ -4,6 +4,7 @@ body{
 }
 .body{
     display: flex;
+    flex-wrap:wrap;
     height: 90vh;
     gap: 20px;
     justify-content: center;
